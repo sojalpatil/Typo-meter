@@ -92,8 +92,7 @@ a{
     }
 }
 
-.input-box{
-    color: black;
-    background-color: white;
-
+.container-bg {
+    background: xxx;
+    margin-top: 20%;
 }

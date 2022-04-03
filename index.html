@@ -6,35 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Typometer</title>
 </head>
 
 <body>
+    <div>
+        <nav class="navbar">
+            <a href="#" class="nav-branding"><img src="img/logo4.png" alt=""></a>
 
-    <nav class="navbar1">
-        <a href="#" class="nav-branding">Typ-o-meter</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">History</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
 
-        <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item1">
-                <a href="#" class="nav-link">History</a>
-            </li>
-            <li class="nav-item1">
-                <a href="#" class="nav-link">Contact</a>
-            </li>
-        </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+        <div class="container-bg">
+            <div class="container">
+                <div>
+                    <input type="text" class="form-control" style="background-color:white; border-color: #212529;">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Type to Start" aria-label="Type to Start"
+                        aria-describedby="button-addon2"
+                        style="background-color:#212529;; border-color: #212529; color:yellow;">
+                    <button class="btn btn-success" type="button" id="button-addon2">Button</button>
+                </div>
+            </div>
         </div>
-    </nav>
+        <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
 
-    <input type="text" placeholder="Type to start">
-
-    <script src="js/main.js"></script>
 </body>
 
 </html>
